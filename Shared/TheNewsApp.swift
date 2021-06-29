@@ -11,7 +11,7 @@ import SwiftUI
 struct TheNewsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PullToRefreshList()
         }
     }
 }
