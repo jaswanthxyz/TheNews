@@ -19,20 +19,24 @@ PODS:
   - URLImage/Log (2.2.5)
   - URLImage/PlainDatabase (2.2.5)
   - URLImage/RemoteContentView (2.2.5)
+  - ViewInspector (0.8.1)
 
 DEPENDENCIES:
   - Alamofire (~> 5.4)
   - URLImage
+  - ViewInspector
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - URLImage
+    - ViewInspector
 
 SPEC CHECKSUMS:
   Alamofire: bfbc4c2fe5909b1d94fb4ef2277c6b3727ef5dae
   URLImage: 36a66c03ba2a9ccbbf06bc83431f2cef171008e8
+  ViewInspector: 8f12eb0709a6159991afc8d7b27fae72cca50dc6
 
-PODFILE CHECKSUM: e3c95dce992944bbbfc83e3b759562c2ffb8958e
+PODFILE CHECKSUM: 2e621529b4f6646dfcd018915bb4e47672ca16de
 
 COCOAPODS: 1.10.0

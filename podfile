@@ -5,6 +5,8 @@ target 'TheNews (iOS)' do
     
     target 'Tests iOS' do
         inherit! :complete
+        pod 'ViewInspector'
+        pod 'SnapshotTesting', '~> 1.9.0'
     end
     
 end
