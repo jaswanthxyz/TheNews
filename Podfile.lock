@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (5.4.2)
+  - SnapshotTesting (1.9.0)
   - URLImage (2.2.5):
     - URLImage/Common (= 2.2.5)
     - URLImage/DownloadManager (= 2.2.5)
@@ -23,20 +24,23 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 5.4)
+  - SnapshotTesting (~> 1.9.0)
   - URLImage
   - ViewInspector
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - SnapshotTesting
     - URLImage
     - ViewInspector
 
 SPEC CHECKSUMS:
   Alamofire: bfbc4c2fe5909b1d94fb4ef2277c6b3727ef5dae
+  SnapshotTesting: 6141c48b6aa76ead61431ca665c14ab9a066c53b
   URLImage: 36a66c03ba2a9ccbbf06bc83431f2cef171008e8
   ViewInspector: 8f12eb0709a6159991afc8d7b27fae72cca50dc6
 
-PODFILE CHECKSUM: 2e621529b4f6646dfcd018915bb4e47672ca16de
+PODFILE CHECKSUM: c11e7ccd770cc4deec526d3930ab986f465017e3
 
 COCOAPODS: 1.10.0

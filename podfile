@@ -2,12 +2,10 @@ use_frameworks!
 target 'TheNews (iOS)' do
     pod 'Alamofire', '~> 5.4'
     pod 'URLImage'
-    
+    pod 'SnapshotTesting', '~> 1.9.0'
     target 'Tests iOS' do
         inherit! :complete
         pod 'ViewInspector'
-        pod 'SnapshotTesting', '~> 1.9.0'
     end
-    
 end
 
