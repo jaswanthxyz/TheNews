@@ -20,6 +20,20 @@
                ReferencedContainer = "container:TheNews.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "41EF457C268B75C4003AF534"
+               BuildableName = "Tests iOS.xctest"
+               BlueprintName = "Tests iOS"
+               ReferencedContainer = "container:TheNews.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
