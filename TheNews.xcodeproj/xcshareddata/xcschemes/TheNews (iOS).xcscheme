@@ -54,6 +54,9 @@
             </BuildableReference>
             <SkippedTests>
                <Test
+                  Identifier = "NewsCardSnapshotTest">
+               </Test>
+               <Test
                   Identifier = "Tests_iOS">
                </Test>
             </SkippedTests>
