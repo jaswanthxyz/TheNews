@@ -16,7 +16,7 @@ struct NewsFeatureCard: View {
         VStack(alignment: .leading) {
             URLImage(url: URL(string:  item.enclosure!.link!.components(separatedBy: "?")[0])!) { proxy in
                 proxy.resizable()
-                    .frame(width: 380, height: 350)
+                    .frame(width: 380, height: 250)
                 
             }
             Text(item.title!)
